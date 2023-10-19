@@ -1,0 +1,105 @@
+/* 基本样式 */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 通用样式 */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* 头部样式 */
+.header {
+    background: rgb(179, 171, 171);
+    padding: 10px;
+    text-align: center;
+}
+
+.header_title a {
+    font-size: 32px;
+}
+
+/* 导航菜单 */
+.menu {
+    background: gray;
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+ul.drop-down-menu {
+    display: none;
+}
+
+/* 适应小屏幕设备 */
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        padding: 0;
+    }
+    
+    ul.drop-down-menu {
+        display: block;
+    }
+
+    ul.drop-down-menu li {
+        width: 100%;
+        border: none;
+    }
+
+    ul.drop-down-menu a {
+        padding: 10px 0;
+    }
+
+    .mid_content {
+        width: 100%;
+        right: 0;
+        top: 15%;
+    }
+
+    .header_left {
+        display: none;
+    }
+}
+
+/* 适应大屏幕设备 */
+@media screen and (min-width: 1200px) {
+    .menu {
+        width: 15%;
+        padding: 0;
+        position: fixed;
+        left: 0;
+        top: 15%;
+        height: 85%;
+    }
+
+    .mid_content {
+        width: 80%;
+        right: 10%;
+        top: 15%;
+        height: 70%;
+    }
+
+    .header_left {
+        display: flex;
+    }
+
+    .add_bar {
+        width: 75%;
+        height: 50px;
+        font-size: 35;
+        border: 0;
+        border-radius: 3px;
+        position: absolute;
+        right: 13%;
+    }
+
+    .header_login {
+        margin-left: auto;
+        padding-right: 11px;
+    }
+}

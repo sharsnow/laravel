@@ -1,0 +1,41 @@
+<template>
+    <div class="context row" id="place">
+        <div class="col-5">
+            <img :src="viewSrc">
+        </div>
+        <div class="card text-center col" >
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link">查看</a>
+                </li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div>
+                    <h5 class="card-title">檢視内容</h5>
+                    <p>點擊要查看的動作名稱並選擇要查看性別則可顯示動作</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</template>
+    <script>
+      export default {
+        delimiters: ['${' , '}'],
+            data() {
+                return {
+                    viewImg: '/manual/action.png',
+                    viewSrc: ''
+                };
+            },
+            methods: {
+            },
+            mounted() {
+                let _this = this;
+                _this.viewSrc = `/image${_this.viewImg}`;
+            }
+      };
+    </script>
+    
