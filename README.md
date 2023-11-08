@@ -7,6 +7,7 @@
 
 後台-腳本編輯
 =======
+<src img="https://github.com/sharsnow/laravel/tree/main/public/image/dialog.png" width="200">
 ![後台腳本](/public/image/dialog.png "dialog" =200x)
 ![腳本編輯](/public/image/manual/dialog.png "dialogEdit")
 
