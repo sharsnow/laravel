@@ -7,7 +7,7 @@
 
 後台-腳本編輯
 =======
-![後台腳本](/public/image/dialog.png "dialog")
+![後台腳本](/public/image/dialog.png "dialog" =200x)
 ![腳本編輯](/public/image/manual/dialog.png "dialogEdit")
 
 管理者可以根據想要讓使用者練習內容進行腳本的設計。主要是透過不同的地點來進行分類，而在相同的地點可以再根據不同的主題或是情境來做更詳細的腳本設置，用來提供管理者做豐富的腳本設置。若是在地點內含有多種的主題則會在使用者在選擇時以隨機的方式挑選主題。   
