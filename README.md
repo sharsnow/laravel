@@ -1,5 +1,5 @@
-![Language](https://img.shields.io/badge/laravel-9.52.7-brightgreen)
-![Language](https://img.shields.io/badge/php-8.0.26-brightgreen)
+![Language](https://img.shields.io/badge/laravel-9.52.7-brightgreen)  
+![Language](https://img.shields.io/badge/php-8.0.26-brightgreen)  
 此為透過laravel進行撰寫並透過Vue.js進行前端設計。  
 網頁主要用來編輯封閉式對話腳本、虛擬人物動作及系統說明書。  
 
