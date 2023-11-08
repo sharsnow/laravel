@@ -1,3 +1,5 @@
+![Language](https://img.shields.io/badge/laravel-9.52.7-brightgreen)
+![Language](https://img.shields.io/badge/php-8.0.26-brightgreen)
 此為透過laravel進行撰寫並透過Vue.js進行前端設計。  
 網頁主要用來編輯封閉式對話腳本、虛擬人物動作及系統說明書。  
 
@@ -23,4 +25,5 @@
 
 <img src="public/image/manual/action.png" width="400px"> 
 
-可以讓使用者不同性別的虛擬人物的動作樣式
+可以讓使用者不同性別的虛擬人物的動作樣式。  
+在虛擬人物的部分，是透過maya建立模型與動作。為了使對話練習中有多種不同的動作，這邊以設立多達25種不同的動作並且有男、女兩種不同性別的模型讓使用者可以選擇。
